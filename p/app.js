@@ -75,16 +75,69 @@ do {
 } while(i<=num2)*/
 
 // ======practice======
-function get(){
-    var user = document.getElementById("input");
-    var user1 = document.getElementById("user");
-    var user2 = document.getElementById("userinput");
-    if(user && user1 && user2){
-        alert("Good Job...")
-    } else{
-        alert("Soory...")
-    }
-    console.log(user);
-    console.log(user1);
-    console.log(user2);
-}
+// function get(){
+//     var user = document.getElementById("input");
+//     var user1 = document.getElementById("user");
+//     var user2 = document.getElementById("userinput");
+//     if(user && user1 && user2){
+//         alert("Good Job...")
+//     } else{
+//         alert("Soory...")
+//     }
+//     console.log(user);
+//     console.log(user1);
+//     console.log(user2);
+// }
+
+// ========= 10-09-2023 ========
+// function completpara() {
+//     // var text = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, necessitatibus?";
+//     var para = document.getElementById("para");
+    
+//     para.innerHTML = `<p id="para1">mustafa
+//     <a onclick="completpara1()" href="#">Read less..</a>
+// </p>`
+// }
+
+// function completpara1() {
+//     // var text = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, necessitatibus?";
+//     var para1 = document.getElementById("para1");
+    
+//     para1.innerHTML = `<p id="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit architecto officia, eius voluptatem consequuntur placeat cupiditate adipisci expedita inventore. Repudiandae eius placeat itaque sunt id aliquid quaerat eos, voluptatem perferendis cumque excepturi architecto ratione quisquam neque illo at quae, nihil ab laborum, similique sint! Dolore atque expedita reiciendis incidunt suscipit?
+// </p>`
+// }
+
+// // ======== TEMPALTE LITERAL ===
+
+// // var firstName = "Muhammad"
+// // var lastName = "Eshareeb"
+// // // console.log(firstName + " " + lastName);
+// // console.log("My Name Is" );
+
+
+
+
+
+
+
+
+// // ====
+// function mouseMover(id,ImageLink){
+// var img = document.getElementById(id);
+// img.src = ImageLink
+// }
+// function mouseOut(id,ImageLink){
+//     var img = document.getElementById(id);
+//     img.src = ImageLink
+//     }
+
+// // ===
+// var para = document.getElementById("para");
+// para.style.fontFamily = "arial"
+// para.style.Color = "Green"
+// para.style.backgroundColor = "Brown"
+// //  ====
+// var anchor = document.getElementById("Link");
+// anchor.herf = ""
+
+// ==============Calculator===========

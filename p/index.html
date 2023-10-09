@@ -1,27 +1,74 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Document</title>
 </head>
 <body>
     <h1>Wellcome Muhammad Eshareeb Rajput</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit architecto officia, eius voluptatem consequuntur placeat cupiditate adipisci expedita inventore. Repudiandae eius placeat itaque sunt id aliquid quaerat eos, voluptatem perferendis cumque excepturi architecto ratione quisquam neque illo at quae, nihil ab laborum, similique sint! Dolore atque expedita reiciendis incidunt suscipit?</p>
- <button onclick="get()">Get</button>
+ <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit architecto officia, eius voluptatem consequuntur placeat cupiditate adipisci expedita inventore. Repudiandae eius placeat itaque sunt id aliquid quaerat eos, voluptatem perferendis cumque excepturi architecto ratione quisquam neque illo at quae, nihil ab laborum, similique sint! Dolore atque expedita reiciendis incidunt suscipit?
+    <a onclick="completpara()" href="#">Read More..</a>
+</p>
+<img id="img" src="https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg?cs=srgb&dl=pexels-pixabay-358070.jpg&fm=jpg" alt=""
+onmouseover="mouseMover('img','https://thecurrent.pk/wp-content/uploads/2023/02/bugatti-profilee-most-expensive-hypercar-in-world-smk-mojo-222-bhai.jpg')"
+onmouseout="mouseOut('img','https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg?cs=srgb&dl=pexels-pixabay-358070.jpg&fm=jpg')"> -->
 
+<!-- <h1>My Calculator App..</h1> --> 
+
+
+
+
+
+
+
+
+
+<!-- <button onclick="get()">Get</button>
 <input onfocus="this.style.backgroundColor='blue'" id="user" type="text"/>
 <input onfocus="this.style.backgroundColor='red'" id="input" type="text"/>
 <input onfocus="this.style.backgroundColor='green'" id="userinput" type="text"/>
-
-
  <img src="https://hips.hearstapps.com/hmg-prod/images/2024-lamborghini-revuelto-127-641a1d518802b.jpg?crop=0.566xw:1.00xh;0.184xw,0&resize=640:* "  
  onmouseout="src='https://hips.hearstapps.com/hmg-prod/images/2024-lamborghini-revuelto-127-641a1d518802b.jpg?crop=0.566xw:1.00xh;0.184xw,0&resize=640:*'"
  onmouseover="src='https://www.shopperspk.com/wp-content/uploads/2017/06/BMW-X1-Kids-Ride-on-Car-with-Police-Siren-2-8-years-Kids-TYS-501.jpg'"
- onmouseup="src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmRxRY7AqnWDNx-f9X_FRB-Q_4PLxsXN2AYw&usqp=CAU'"
+ onmouseup="src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmRxRY7AqnWDNx-f9X_FRB-Q_4PLxsXN2AYw&usqp=CAU'" -->
  
- >   
+<!--     
  
  
  <script src="app.js"></script>
     
+</body> -->
+<!-- </html> -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" id="result" readonly>
+        </div>
+        <div class="buttons">
+            <button onclick="clearResult()">C</button>
+            <button onclick="appendToResult('7')">7</button>
+            <button onclick="appendToResult('8')">8</button>
+            <button onclick="appendToResult('9')">9</button>
+            <button onclick="appendToResult('/')">/</button>
+            <button onclick="appendToResult('4')">4</button>
+            <button onclick="appendToResult('5')">5</button>
+            <button onclick="appendToResult('6')">6</button>
+            <button onclick="appendToResult('*')">*</button>
+            <button onclick="appendToResult('1')">1</button>
+            <button onclick="appendToResult('2')">2</button>
+            <button onclick="appendToResult('3')">3</button>
+            <button onclick="appendToResult('-')">-</button>
+            <button onclick="appendToResult('0')">0</button>
+            <button onclick="appendToResult('.')">.</button>
+            <button onclick="calculateResult()">=</button>
+            <button onclick="appendToResult('+')">+</button>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
 </body>
 </html>
